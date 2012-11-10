@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_ARTICLEUPDATER_FORM_LBL_DRAFT_ID"
+                    readonly="true" class="readonly"
+                    description="JGLOBAL_FIELD_ID_DESC" /> 
+<!--
+       <field name="article_id" type="text" size="40" class="inputbox"
+                
+            label="COM_ARTICLEUPDATER_FORM_LBL_DRAFT_ARTICLE_ID"
+            description="COM_ARTICLEUPDATER_FORM_DESC_DRAFT_ARTICLE_ID" 
+                
+                
+                 required="true" 
+                filter="safehtml" /> 
+--> 
+		<field name="article_id" type="Modal_Article"
+                label="COM_ARTICLEUPDATER_FORM_LBL_DRAFT_ARTICLE_ID"
+                required="true"
+                description="COM_ARTICLEUPDATER_FORM_DESC_DRAFT_ARTICLE_ID"
+            />
+       <field name="content" type="editor"
+                        
+            label="COM_ARTICLEUPDATER_FORM_LBL_DRAFT_CONTENT"
+            description="COM_ARTICLEUPDATER_FORM_DESC_DRAFT_CONTENT" 
+                        
+                        
+                         required="true" 
+            filter="safehtml" /> 
+
+       <field name="publish_date" type="calendar"
+                        
+            label="COM_ARTICLEUPDATER_FORM_LBL_DRAFT_PUBLISH_DATE"
+            description="COM_ARTICLEUPDATER_FORM_DESC_DRAFT_PUBLISH_DATE" 
+                        
+                        
+                         required="true" 
+            filter="raw" /> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+                <field name="checked_out_time" type="hidden" filter="unset" />
+		
+
+	</fieldset>
+
+</form>

@@ -1,0 +1,124 @@
+running2012-09-03 00:05:41
+running 2012-09-03 00:05:41
+SELECT * FROM j25_articleupdater_draft WHERE publish_date <= '2012-09-03 0:05:00'
+insert into j25_articleupdater_oricontent
+	(article_id,asset_id,title,alias,title_alias,introtext,`fulltext`,state,sectionid,mask,
+	catid,created,created_by,created_by_alias, modified,modified_by,checked_out,
+	checked_out_time,publish_up, publish_down,images,urls,attribs,version,
+	parentid,ordering,metakey,metadesc,access,hits,metadata,featured,language,xreference
+	)values(
+	'788','570','Alexander Haväng','alexander-havaeng','','<table cellspacing="0" width="100%" id="framework-basis-content" class="mceItemTable">
+    <tbody>
+        <tr>
+            <td>
+            <div>
+            <div class="exec_template_bioimg"><img src="http://www.proceranetworks.com/images/exec-team-2012/alexander.jpg" mce_src="http://www.proceranetworks.com/images/exec-team-2012/alexander.jpg" title="James F. Brear" alt="James F. Brear" class="author_exec_template_img" /></div>
+            <div>
+            <p><b>Alexander Haväng</b><br />
+            <b>Chief Technical Officer</b><b>&#160;             </b></p>
+            <p>Mr.                        Haväng is the CTO of Procera Networks and is  responsible for the                        company's strategic  technology direction.&#160; Haväng is widely known and a                         respected authority in the open source community, and is the lead                         architect for Procera's industry-recognized, deep  packet                        inspection-based network traffic and  service management solution,                        PacketLogic™.  Earlier in his career, Haväng was one of the chief                         architects for the open source streaming server software Icecast,  along                                                with the secure  file transfer protocol GSTP. He spent the early part of                         his career at IDA systems, an IT solution provider for the  Swedish                        government, along with a stint in the  Swedish military.&#160; Haväng studied                        computer  science at the Linköping University in Sweden.</p>
+            </div>
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>','','1','0','0',
+	'67','2012-01-04 22:13:15','62','','2012-08-27 00:37:31','0','0',
+	'0000-00-00 00:00:00','2012-01-04 22:13:15','0000-00-00 00:00:00','','','{"show_title":0,"link_titles":"","show_intro":"","show_section":"","link_section":"","show_category":"","link_category":"","show_vote":"","show_author":"","show_create_date":"","show_modify_date":"","show_pdf_icon":"","show_print_icon":"","show_email_icon":"","language":"","keyref":"","readmore":"","show_parent_category":"","link_parent_category":"","link_author":"","show_publish_date":"","show_item_navigation":"","show_icons":"","show_hits":"","show_noauth":"","alternative_readmore":"","article_layout":"","show_publishing_options":"","show_article_options":"","show_urls_images_backend":"","show_urls_images_frontend":""}','3',
+	'0','13','','','1','1570','','0','*',''
+	)
+	
+insert into j25_articleupdater_oricontent
+	(article_id,asset_id,title,alias,title_alias,introtext,`fulltext`,state,sectionid,mask,
+	catid,created,created_by,created_by_alias, modified,modified_by,checked_out,
+	checked_out_time,publish_up, publish_down,images,urls,attribs,version,
+	parentid,ordering,metakey,metadesc,access,hits,metadata,featured,language,xreference
+	)values(
+	'788','570','Alexander Haväng','alexander-havaeng','','<table cellspacing="0" width="100%" id="framework-basis-content" class="mceItemTable">
+    <tbody>
+        <tr>
+            <td>
+            <div>
+            <div class="exec_template_bioimg"><img src="http://www.proceranetworks.com/images/exec-team-2012/alexander.jpg" mce_src="http://www.proceranetworks.com/images/exec-team-2012/alexander.jpg" title="James F. Brear" alt="James F. Brear" class="author_exec_template_img" /></div>
+            <div>
+            <p><b>Alexander Haväng</b><br />
+            <b>Chief Technical Officer</b><b>&#160;             </b></p>
+            <p>Mr.                        Haväng is the CTO of Procera Networks and is  responsible for the                        company's strategic  technology direction.&#160; Haväng is widely known and a                         respected authority in the open source community, and is the lead                         architect for Procera's industry-recognized, deep  packet                        inspection-based network traffic and  service management solution,                        PacketLogic™.  Earlier in his career, Haväng was one of the chief                         architects for the open source streaming server software Icecast,  along                                                with the secure  file transfer protocol GSTP. He spent the early part of                         his career at IDA systems, an IT solution provider for the  Swedish                        government, along with a stint in the  Swedish military.&#160; Haväng studied                        computer  science at the Linköping University in Sweden.</p>
+            </div>
+            </div>
+            </td>
+        </tr>
+    </tbody>
+</table>','','1','0','0',
+	'67','2012-01-04 22:13:15','62','','2012-08-27 00:37:31','0','0',
+	'0000-00-00 00:00:00','2012-01-04 22:13:15','0000-00-00 00:00:00','','','{"show_title":0,"link_titles":"","show_intro":"","show_section":"","link_section":"","show_category":"","link_category":"","show_vote":"","show_author":"","show_create_date":"","show_modify_date":"","show_pdf_icon":"","show_print_icon":"","show_email_icon":"","language":"","keyref":"","readmore":"","show_parent_category":"","link_parent_category":"","link_author":"","show_publish_date":"","show_item_navigation":"","show_icons":"","show_hits":"","show_noauth":"","alternative_readmore":"","article_layout":"","show_publishing_options":"","show_article_options":"","show_urls_images_backend":"","show_urls_images_frontend":""}','3',
+	'0','13','','','1','1570','','0','*',''
+	)
+	
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's strategic  technology direction.&#160; Haväng is widely known and a          ' at line 7
+
+insert into j25_articleupdater_oricontent
+	(article_id,asset_id,title,alias,title_alias,introtext,`fulltext`,state,sectionid,mask,
+	catid,created,created_by,created_by_alias, modified,modified_by,checked_out,
+	checked_out_time,publish_up, publish_down,images,urls,attribs,version,
+	parentid,ordering,metakey,metadesc,access,hits,metadata,featured,language,xreference
+	)values(
+	'794','576','Benjamin Teh','benjamin-teh','','<p>b1</p>','','1','0','0',
+	'67','2012-01-04 22:25:28','140','','2012-09-03 00:04:00','141','0',
+	'0000-00-00 00:00:00','2012-01-04 22:25:28','0000-00-00 00:00:00','','','{"show_title":"","link_titles":"","show_intro":"","show_category":"","link_category":"","show_parent_category":"","link_parent_category":"","show_author":"","link_author":"","show_create_date":"","show_modify_date":"","show_publish_date":"","show_item_navigation":"","show_icons":"","show_print_icon":"","show_email_icon":"","show_vote":"","show_hits":"","show_noauth":"","urls_position":"","alternative_readmore":"","article_layout":"","show_publishing_options":"","show_article_options":"","show_urls_images_backend":"","show_urls_images_frontend":""}','2',
+	'0','7','','','1','409','{"robots":"","author":"","rights":"","xreference":""}','0','*',''
+	)
+	
+update j25_content 
+		set introtext='<p>b1</p>', `fulltext` = '', modified='2012-09-03 0:05:00'
+		where id=794
+insert into j25_articleupdater_oricontent
+	(article_id,asset_id,title,alias,title_alias,introtext,`fulltext`,state,sectionid,mask,
+	catid,created,created_by,created_by_alias, modified,modified_by,checked_out,
+	checked_out_time,publish_up, publish_down,images,urls,attribs,version,
+	parentid,ordering,metakey,metadesc,access,hits,metadata,featured,language,xreference
+	)values(
+	'934','726','test draft1','test-draft1','','<p>telo2</p>
+','','1','0','0',
+	'94','2012-09-02 21:26:23','141','','2012-09-03 00:04:00','0','0',
+	'0000-00-00 00:00:00','2012-09-02 21:26:23','0000-00-00 00:00:00','','','{"show_title":"","link_titles":"","show_intro":"","show_category":"","link_category":"","show_parent_category":"","link_parent_category":"","show_author":"","link_author":"","show_create_date":"","show_modify_date":"","show_publish_date":"","show_item_navigation":"","show_icons":"","show_print_icon":"","show_email_icon":"","show_vote":"","show_hits":"","show_noauth":"","urls_position":"","alternative_readmore":"","article_layout":"","show_publishing_options":"","show_article_options":"","show_urls_images_backend":"","show_urls_images_frontend":""}','1',
+	'0','0','','','1','0','{"robots":"","author":"","rights":"","xreference":""}','0','*',''
+	)
+	
+update j25_content 
+		set introtext='<p>telo2</p>
+', `fulltext` = '
+<p>kacang2 telo2</p>', modified='2012-09-03 0:05:00'
+		where id=934
+finished 2012-09-03 00:05:42
+running2012-09-03 00:24:47
+running 2012-09-03 00:24:47
+SELECT * FROM j25_articleupdater_draft WHERE publish_date <= '2012-09-03 0:24:00'
+insert into j25_articleupdater_oricontent
+	(article_id,asset_id,title,alias,title_alias,introtext,`fulltext`,state,sectionid,mask,
+	catid,created,created_by,created_by_alias, modified,modified_by,checked_out,
+	checked_out_time,publish_up, publish_down,images,urls,attribs,version,
+	parentid,ordering,metakey,metadesc,access,hits,metadata,featured,language,xreference
+	)values(
+	'934','726','test draft1','test-draft1','','<p>telo2</p>
+','','1','0','0',
+	'94','2012-09-02 21:26:23','141','','2012-09-03 00:05:00','0','0',
+	'0000-00-00 00:00:00','2012-09-02 21:26:23','0000-00-00 00:00:00','','','{"show_title":"","link_titles":"","show_intro":"","show_category":"","link_category":"","show_parent_category":"","link_parent_category":"","show_author":"","link_author":"","show_create_date":"","show_modify_date":"","show_publish_date":"","show_item_navigation":"","show_icons":"","show_print_icon":"","show_email_icon":"","show_vote":"","show_hits":"","show_noauth":"","urls_position":"","alternative_readmore":"","article_layout":"","show_publishing_options":"","show_article_options":"","show_urls_images_backend":"","show_urls_images_frontend":""}','1',
+	'0','0','','','1','0','{"robots":"","author":"","rights":"","xreference":""}','0','*',''
+	)
+	
+update j25_content 
+		set introtext='<p>mantab</p>', `fulltext` = '', modified='2012-09-03 0:24:00'
+		where id=934
+update j25_articleupdater_draft set is_done=1 where id=1
+finished 2012-09-03 00:24:47
+running2012-09-03 00:25:07
+running 2012-09-03 00:25:07
+SELECT * FROM j25_articleupdater_draft WHERE is_done=0 and publish_date <= '2012-09-03 0:25:00'
+drafts empty
+finished 2012-09-03 00:25:07
+running2012-09-03 00:28:32
+running 2012-09-03 00:28:32
+SELECT * FROM j25_articleupdater_draft WHERE is_done=0 and publish_date <= '2012-09-03 0:28:00'
+drafts empty
+finished 2012-09-03 00:28:32
